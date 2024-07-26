@@ -1,0 +1,444 @@
+
+html {
+    background-image: url(img/GeneralBackground.png); 
+    background-repeat: no-repeat; 
+    background-position: inherit;
+    background-size: cover;
+    background-position: 0px -30px;
+    overflow-x: hidden;
+     }
+
+     @media(min-width: 1200px){
+      .TitleCoffee {margin-top: 200px;}
+     }
+     
+     @media(min-width: 992px){
+       .TitleCoffee {margin-top: 200px;}
+     }
+     
+     @media(min-width: 768px){
+       .TitleCoffee {margin-top: 200px;}
+     }
+     
+     @media(min-width: 488px){
+      .TitleCoffee {margin-top: 200px;}
+     }
+     
+     @media(min-width: 328px){
+      .TitleCoffee {margin-top: 200px;
+      min-width:1000px;}
+
+       }
+    
+body { min-height: 6770px;
+      margin:0px ;
+      overflow-x: visible;
+    }
+
+.top-menu {
+    position:absolute;
+    background: none;
+    width:100%;
+    top:0px;
+    margin-top: 0px;
+  }
+  .menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu-main:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-decoration: none;
+  }
+.left-item1{ float: left;
+margin-left:25px;}
+.left-item2{float: left;
+    margin-left: 10px;
+    }
+.left-item3 {float: left;
+    margin-left:10px;}
+.left-item4 {float: left;
+    margin-left: 10px;}
+.left-item5 {float: left;
+    margin-left: 10px;}
+ .navbar-logo {
+        position: absolute;
+        margin-left: 88%;
+        transform: translate(-50%,-50%);
+        margin-top:-15px;}
+
+ .menu-main a {
+            text-decoration: none;
+            display: block;
+            line-height: 70px;
+            padding: 0 10px;
+            margin-left: 10px;
+            font-size: 20px;
+            font-weight:900;
+            color: white;}
+.menu-main a:hover {text-decoration: underline solid #009999 ;
+              text-decoration-line: 15px;
+              }
+
+.TitleCoffee { text-decoration: none;
+  display: block;
+  margin-left: 0px;
+  padding-left:40px;
+  margin-top: 120px;
+  color: white;
+  overflow: hidden;
+  padding: none;
+  position: relative;
+  margin-bottom: 0px;
+  padding-bottom: 0%;;}
+.CoffeeTitle{ font-size: 90px;
+position: relative;
+}
+.discription1{ font-size:30px;
+position:relative;
+margin-top: 50px;
+max-width: 500px;
+}
+.button1 { position: relative;
+  margin-top: 40px;
+  margin-left:5px ;
+  margin-bottom: 5px;
+  background-color: rgb(41, 179, 168);
+  font-size: 40px;
+  text-decoration: none;
+  border-radius:12px ;
+  border: none;
+  color:white;
+}
+.button1:hover {transform: scale(1.05);
+  transition: 0.3s all
+}
+
+.Step1 {color:white;
+margin-top:-100px;
+position: relative;
+text-align:  justify;
+padding-bottom:0%;}
+.Black{font-size: 80px;
+ margin-top: 200px ;
+ margin-left: 100px;
+ position: relative;
+}
+.Coffee1{ 
+  height: 500px;
+  margin-left: 28%;
+  position: absolute;
+  margin-top: -300px;;
+}
+.discription2 {
+  position: relative;
+  margin-top:100px ;
+  margin-left:50% ;
+  max-width: 500px;
+  font-size: 20px;
+  text-align: start;
+}
+.button2 {
+  position: relative;
+  margin-top: 40px;
+  margin-left:105px ;
+  margin-bottom: 5px;
+  background-color: rgb(50, 52, 68);
+  font-size: 40px;
+  text-decoration: none;
+  border-radius:12px;
+  border: none;
+  color:white;
+}
+.button2:hover {transform: scale(1.05);
+  transition: 0.3s all
+}
+
+.Step2 {color:white;
+  margin-top:150px;
+  position: relative;
+}
+  .Hot{font-size: 80px;
+   margin-top: 150px ;
+   margin-left: 68%;
+   position: relative;
+  }
+  .Coffee2{ 
+    height: 500px;
+    position: absolute;
+    margin-top:-300px;
+    margin-left: 90px;
+  }
+  .discription3 {
+    position: relative;
+    margin-top:200px ;
+    margin-left:120px ;
+    max-width: 500px;
+    font-size: 20px;
+  }
+  .button3 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left:75% ;
+    margin-bottom: 5px;
+    background-color: rgb(41, 179, 168);
+    font-size: 40px;
+    text-decoration: none;
+    border-radius:12px ;
+    border: none;
+    color:white;
+  }
+  .button3:hover {transform: scale(1.05);
+    transition: 0.3s all
+  }
+
+  .Step3 {color:white;
+    margin-top:-100px;
+    position: relative;}
+    .Good{font-size: 80px;
+     margin-top: 300px ;
+     margin-left: 100px;
+     position: relative;
+    }
+    .Coffee3{ 
+      height: 500px;
+      margin-left: 28%;
+      position: absolute;
+      margin-top:-350px;
+    }
+    .discription4 {
+      position: relative;
+      margin-top:60px ;
+      margin-left:50% ;
+      max-width: 500px;
+      font-size: 20px;
+      text-align: right;
+    }
+    .button4 {
+      position: relative;
+      margin-top: 40px;
+      margin-left:105px ;
+      margin-bottom: 5px;
+      background-color: rgb(41, 179, 168);
+      font-size: 40px;
+      text-decoration: none;
+      border-radius:12px ;
+      border: none;
+      color:white;
+    }
+    .button4:hover {transform: scale(1.05);
+      transition: 0.3s all
+    }
+
+.Special {
+position: relative;
+margin-top: -30px;
+text-align:center;
+color: white;
+}
+.Special1{
+position: relative;
+margin-top:30px;
+font-size: 60px;
+}
+.fortyfive{
+position: relative;
+margin-top: 50px;
+font-size: 20px;
+}
+.Discount {
+   display: block;
+position:relative ;
+height:200px;
+margin:30px auto 0px  auto ;
+}
+.Discount:hover {transform: scale(1.15);
+  transition: 0.5s all}
+.Discount:not(:hover) { transform: scale(1);
+  transition: 0.25s all } 
+
+.Review {color:white;
+      margin-top:-335px;
+      position: relative;
+    }
+.Clients{ font-size: 60px;
+  margin-top: 350px ;
+  position: relative;
+  text-align: center;
+ }
+.Customers {display:block;
+  margin:auto auto;
+  margin-top:30px;
+}
+.Rev1 {
+  position: absolute;
+  margin-top:15px ;
+  margin-left:15% ;
+  max-width: 400px;
+  font-size: 22px;
+}
+.Rev2 {
+    position: relative;
+    margin-top:15px ;
+    margin-left:57% ;
+    max-width: 400px;
+    font-size: 22px;
+  }
+
+
+.CoffeeTitle , .Black, .Hot , .Good, .Clients, .work, .Special1, .Branches1{
+  font-family: "Pacifico";
+  font-weight: 50;
+  font-style: normal;
+  line-height: 0.95;
+}
+.discription1, .discription2, .discription3, .discription4, .mn-fr, .st-sn, .fortyfive, .Moscow2, .SPB2, .Kotelnich2, .menu-main, .Info, .Contact, .Rev1, .Rev2 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+.button1, .button2, .button3, .button4, .Moscow1, .SPB1, .Kotelnich1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.hours {
+  position: relative;
+  margin-top:0px ;
+  color: white;
+}
+.work {font-size: 80px;
+  position: relative;
+  text-align: center;
+}
+.mn-fr {
+  position: relative;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 25px;
+}
+.st-sn {
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.Branches{
+  position: relative;
+  margin-top: 0px;
+  color: white;
+}
+.Branches1{position: relative;
+  font-size: 80px;
+  text-align: center;
+}
+.AllBranches {
+  position: relative;
+  display:block;
+  margin: 50px auto auto;
+}
+.Moscow {
+  position:relative;
+  text-align:left;
+  margin-top: 20px;
+margin-left: 10%;
+}
+.Moscow1 {position: relative;
+  font-size: 30px;
+  padding:10px;
+  background-color: #009999;
+  border-radius:12px ;
+  padding: 5px;
+  border: none;
+  color: white;
+}
+.Moscow2 {position: relative;
+  font-size: 20px;
+  margin-top:20px;
+  margin-left: -5%;
+}
+
+.SPB {
+  position:relative;
+  text-align:center;
+  margin-top: -100px;
+}
+.SPB1 {position: relative;
+  font-size: 30px;
+  padding:10px;
+  background-color: #009999;
+  border-radius:12px ;
+  padding: 5px;
+  border: none;
+  color: white;
+}
+.SPB2 {position: relative;
+  font-size: 20px;
+  margin-top:20px;
+}
+
+.Kotelnich {
+  position:relative;
+  text-align:right;
+  margin-top: -100px;
+ margin-right: 10%;
+}
+.Kotelnich1 {position: relative;
+  font-size: 30px;
+  padding:10px;
+  background-color: #009999;
+  border-radius:12px ;
+  padding: 5px;
+  border: none;
+  color: white;
+}
+.Kotelnich2 {position: relative;
+  font-size: 20px;
+  margin-top:20px;
+  margin-right: -5%;
+}
+
+.End {position: relative;
+margin-top:-250px;
+color: white;
+font-size: 25px;
+box-sizing: border-box;
+}
+.navbar-logo2 {position: absolute;
+margin-top:-10px;
+margin-left: 50px;
+}
+.Info {position: relative;
+margin-left: 60%;
+margin-top:350px;
+}
+.Contact {position: relative;
+margin-left:75%;
+margin-top: -245px;
+}
+
+html, body{
+  overflow: hidden !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
